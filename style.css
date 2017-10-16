@@ -1,0 +1,27 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;  
+    font-family: Courier New, Courier, monospace;
+}
+
+table tr{
+    height: 50px;
+}
+
+table tr th{
+    border: 1px solid black;    
+    width: 50px;
+    background-color: #0c994b;
+}
+
+table tr td{
+    border: 1px solid black;    
+}
+
+.highlight{
+    background-color: red;    
+}
+
+.transition{
+    transition: background-color 2s ease;
+}
